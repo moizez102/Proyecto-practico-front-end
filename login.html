@@ -6,31 +6,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YARD SALE EXAMPLE</title>
-    <style>@import url("./New-password.css");</style>
+    <title>login</title>
+    <style>@import url("./login.css");</style>
 </head>
 <body>
-    <nav>
-        <div>INICIO</div>
-        <div>CONTACTO</div>
-        <div>PUBLICACION</div>
-    </nav>
     <div class="login"> 
         <div class="form-container">
             
             <img src="./logos/logo_yard_sale.svg" alt="LOGO" class="logo">
-            <h2 class="title"> Create a new password</h2>
-            <p class="subtitle"> Enter a new password for your account</p>
+            <h2 class="title"> Welcome to YardSale </h2>
          
             <form action="/" class="form">
 
-                <label for="password" class="label"> Password</label>
-                <input type="password" id="password" placeholder="***" class="input input-password">
+                <label for="email" class="label">Email Address</label>
+                <input type="text" id="email" placeholder="example@email.com" class="input input-password">
 
-                <label for="Confirm-password" class="label"> Confirm Password</label>
+                <label for="Confirm-password" class="label">Your Password</label>
                 <input type="password" id="Confirm-password" placeholder="***" class="input input-password">
 
-                <input type="submit" value="confirm" class="primary-button login-button">
+                <input type="submit" value="log in" class="primary-button login-button">
+                
+                <a href="/">forgot my password</a>
+
+                <button class="secondary-button signup">sign up</button>
             </form>
         </div>
     </div>
